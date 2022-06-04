@@ -92,6 +92,24 @@ body {
     height: 78vh;
     justify-content: center;
 }
+.center-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-right: 60px;
+    padding-top: 40px;
+
+    width: 600px;
+    height: 400px;
+
+    margin-top: 150px;
+    margin-left: -800px;
+
+    border-right: 1px solid white;
+}
 footer {
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 12px;
