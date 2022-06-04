@@ -44,6 +44,7 @@ body {
 .links {
     all: unset;
     margin-top: 5px;
+    font-size: 20px;
 }
 .Home {
     all: unset;
