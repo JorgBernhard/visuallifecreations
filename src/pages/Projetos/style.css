@@ -1,0 +1,97 @@
+body {
+    all:unset;
+    background-image: url("../../image/Madrid.jpg");
+    background-size: 120%;
+
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    
+}
+.header {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(87, 133, 133, 0.3);
+    
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.slogan {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+    color: rgb(202, 238, 105, 0.8);
+    margin-top: 240px;
+    margin-left: -640px;
+}
+.links {
+    all: unset;
+    margin-top: 5px;
+}
+.Home {
+    all: unset;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(255, 255, 255);
+
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Home:hover {
+    color: rgb(202, 238, 105);
+}
+.Us {
+    all: unset;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(255, 255, 255);
+
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Us:hover {
+    color: rgb(202, 238, 105);
+}
+.Projects {
+    all: unset;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: rgb(202, 238, 105);
+
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.Contact {
+    all: unset;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:  rgb(255, 255, 255);
+    margin-right: 35px;
+    cursor: pointer;
+}
+.Contact:hover {
+    color: rgb(202, 238, 105);
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+}
+footer {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+
+}
