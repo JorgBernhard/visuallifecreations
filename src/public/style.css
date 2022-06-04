@@ -16,21 +16,21 @@ body {
     
 }
 .header {
-    /* margin-top: -14px; */
+    
     position: static;
     display: flex;
     flex-direction: row;
     width: 100vw;
     height: 100px;
     background-color: rgb(87, 133, 133, 0.3);
-    border-bottom: 1px solid white;
+  
     
     justify-content: space-between;
     align-items: center;
 }
 .logo-text {
     font-family: 'Kdam Thmor Pro', sans-serif;
-    /* font-family: 'Dancing Script', cursive; */
+  
     font-size: 60px;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 50px;
